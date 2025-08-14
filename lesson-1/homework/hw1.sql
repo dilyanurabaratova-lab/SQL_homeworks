@@ -1,4 +1,4 @@
-## EASY 
+-- EASY 
 --Define the following terms: data, database, relational database, and table.
 
 Data: A collection of raw, unorganized facts, such as numbers, text, or symbols, that lack context or meaning on their own. When processed and organized, data becomes information.
@@ -49,7 +49,7 @@ While the names sound similar, SQL, SQL Server, and SSMS are three distinct comp
 
      #HARD# 
     
-    -7-Research and explain the different SQL commands: DQL, DML, DDL, DCL, TCL with examples.
+    --7.Research and explain the different SQL commands: DQL, DML, DDL, DCL, TCL with examples.
 
 SQL commands are grouped into five main categories based on their function: Data Definition Language (DDL), Data Manipulation Language (DML), Data Query Language (DQL), Data Control Language (DCL), and Transaction Control Language (TCL). Understanding these categories is crucial for managing and interacting with a database.
 
@@ -167,3 +167,4 @@ Example: SAVEPOINT savepoint_A;
     SSML - restoredatabase - General - Device - Add - doc will be choosen and finally OK 
 
     
+
