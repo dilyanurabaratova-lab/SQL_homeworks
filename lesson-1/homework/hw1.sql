@@ -53,7 +53,7 @@ While the names sound similar, SQL, SQL Server, and SSMS are three distinct comp
 
 SQL commands are grouped into five main categories based on their function: Data Definition Language (DDL), Data Manipulation Language (DML), Data Query Language (DQL), Data Control Language (DCL), and Transaction Control Language (TCL). Understanding these categories is crucial for managing and interacting with a database.
 
-DDL commands are used to create and modify the structure of a database and its objects. They define the schema of the database. Think of them as the commands you'd use to build or change the blueprint of a house.
+DDL commands are used to create and modify the structure of a database and its objects. They define the schema of the database. Think of them as the commands you`d use to build or change the blueprint of a house.
 
 CREATE: Used to create new database objects like tables, views, or indexes.
 
@@ -167,4 +167,5 @@ Example: SAVEPOINT savepoint_A;
     SSML - restoredatabase - General - Device - Add - doc will be choosen and finally OK 
 
     
+
 
