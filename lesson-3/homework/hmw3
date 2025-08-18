@@ -1,1 +1,39 @@
+create database Homeworklessonthree
+
+Create table Products (ProductID INT PRIMARY KEY, ProductName VARCHAR(50), Price DECIMAL(10,2))
+
+select * from Products
+
+insert into Products values (1,'apple', 55),(2,'tangerina',65),(3,'banana',50) 
+
+ALTER TABLE Products ADD CONSTRAINT UQ_Products_ProductName UNIQUE (ProductName);
+
+ALTER TABLE Products add  CategoryID int
+
+Create  table Categories (CategoryID int PRIMARY KEY , CategoryName varchar(30) UNIQUE)
+
+DROP TABLE Products;
+
+Create table Products (ProductID int,ProductName varchar (30),Category varchar (30),Price int)
+
+
+
+Bulk Insert Products
+from 'C:\Users\User\Desktop\products.csv'
+with(
+firstrow = 2,
+fieldterminator = ',',
+rowterminator = '\n'
+)
+
+select * from Products
+
+
+Alter table Products add foreign key (ProductID) References Categories (CategoryID)
+
+ALTER TABLE Products
+ADD CONSTRAINT Price CHECK (Price > 0)
+
+ALTER TABLE Products
+ADD Stock INT Default 'notnull'
 
